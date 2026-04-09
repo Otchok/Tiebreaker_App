@@ -8,7 +8,7 @@ class DecisionService extends ChangeNotifier {
   bool isLoading = false;
   String? errorMessage;
 
-  final String _apiKey = 'AIzaSyB5jFAjZcVL6rLflwh75jobxxz0ujSI3yw';
+  final String _apiKey = 'AIzaSyDmPtMRKp9HNL8UmhjgTPDgXOFfcmS5ZJU';
 
 
   Future<void> analyzeDecision(String decisionPrompt) async {
